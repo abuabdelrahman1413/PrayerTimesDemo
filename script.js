@@ -56,6 +56,8 @@ function getOption() {
             let monthString = response.data.data.date.hijri.month.ar;
             let year = response.data.data.date.hijri.year;
 
+            console.log(selectElement.value);
+            
             console.log(Fajr);
             console.log(Sunrise);
             console.log(Dhuhr);
