@@ -43,7 +43,7 @@ function getOption() {
         country = 'Egypt';
     }
 
-    axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${output}&country=${country}`)
+    axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${output}&country=${country}&method=2`)
         .then((response) => {
             let Fajr = response.data.data.timings.Fajr;
             let Sunrise = response.data.data.timings.Sunrise;
