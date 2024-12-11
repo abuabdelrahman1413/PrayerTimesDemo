@@ -82,3 +82,24 @@ hr {
     font-family: "Aref Ruqaa", serif;
     font-size: 30px;
 }
+
+
+@media (max-width: 800px){
+
+
+    /*write your CSS-Code here*/
+    #prayerTimesContainer{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+
+    .pray-block{
+        margin-bottom: 20px;
+    }
+  
+  
+  }
