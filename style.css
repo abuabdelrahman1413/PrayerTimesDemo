@@ -16,6 +16,7 @@ body {
 background: linear-gradient(45deg, #240165, #c32aa3);
 direction: rtl;
 min-height: 100vh;
+width: 100%;
 
 }
 
