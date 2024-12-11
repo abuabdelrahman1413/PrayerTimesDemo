@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#cityName{
+    color: #fff;
+    font-size: 100px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    font-family: "Aref Ruqaa", serif;
+background: linear-gradient(45deg, #240165, #c32aa3);
+direction: rtl;
+min-height: 100vh;
+
+}
+
+
+
+hr {
+    margin: 30px 30px; border-color: #fff
+}
+
+#cityNameContainer{
+    margin-right: 40px;
+}
+
+#cityName {
+    font-weight: 700; font-style: bold;
+}
+
+#cityDate {
+    font-size: 35px; color: #fff;
+}
+
+#prayerTimesContainer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    width: 90%;
+}
+
+.pray-block{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.pray {
+    font-size: 20px;
+    background-color: #ff00c8;
+    color: #fff;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.time {
+    font-size: 40px;
+    padding-top:25px;
+}
+
+#selectCity {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: "Aref Ruqaa", serif;
+    font-size: 30px;
+}

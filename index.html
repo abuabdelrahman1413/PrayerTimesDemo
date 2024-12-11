@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <!--City name + date-->
+      <div>
+        <!--city name-->
+        <div id="cityNameContainer">
+          <h1 id="cityName">كرمة</h1>
+          <h5 id="cityDate">الجمعة 9 جمادى الثانية</h5>
+        </div>
+        <!--/city name/-->
+        <hr />
+      </div>
+      <!-- / City name + date /-->
+    </div>
+
+    <!--prayer times-->
+    <div id="prayerTimesContainer">
+      <div class="pray-block Fajr">
+        <h3 class="pray">الفجر</h3>
+        <h3 class="time">4:00</h3>
+      </div>
+      <div class="pray-block Sunrise">
+        <h3 class="pray">الشروق</h3>
+        <h3 class="time">6:00</h3>
+      </div>
+      <div class="pray-block Dhuhr">
+        <h3 class="pray">الظهر</h3>
+        <h3 class="time">12:00</h3>
+      </div>
+      <div class="pray-block Asr">
+        <h3 class="pray">العصر</h3>
+        <h3 class="time">15:00</h3>
+      </div>
+      <div class="pray-block Maghrib">
+        <h3 class="pray">المغرب</h3>
+        <h3 class="time">18:00</h3>
+      </div>
+      <div class="pray-block Isha">
+        <h3 class="pray">العشاء</h3>
+        <h3 class="time">19:00</h3>
+      </div>
+
+
+    </div>
+    <div>
+    <select id="selectCity" onchange="getOption()">
+
+    </select>
+      </div>
+    <!--/prayer times/-->
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  </body>
+</html>
